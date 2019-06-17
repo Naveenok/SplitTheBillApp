@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Split the Bill App</string>
+    <string name="appTitle">Split Help</string>
+    <string name="splithelpimg">Split Help Image</string>
+    <string name="splitHelpButton">Split the Bill</string>
+    <string name="appTitle2">Split the bill with tip!</string>
+    <string name="billAmount">Enter the total bill amount</string>
+    <string name="numberOfPeople">Number of people</string>
+    <string name="prompt">Quality of service</string>
+    <string name="splitHelpButton2">Calculate Bill</string>
+
+    <string-array name="txtGroup">
+        <item>Excellent</item>
+        <item>Average</item>
+        <item>Poor</item>
+
+    </string-array>
+</resources>

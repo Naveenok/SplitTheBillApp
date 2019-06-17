@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Bill">
+
+    <TextView
+        android:id="@+id/titleTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:paddingTop="@dimen/dimen10dp"
+        android:paddingBottom="@dimen/dimen10dp"
+        android:text="@string/appTitle2"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/titleSize" />
+
+    <EditText
+        android:id="@+id/totalAmount"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:ems="10"
+        android:hint="@string/billAmount"
+        android:inputType="number"
+        android:paddingTop="@dimen/dimen10dp"
+        android:paddingBottom="@dimen/dimen10dp"
+        android:textSize="@dimen/hintSize" />
+
+    <EditText
+        android:id="@+id/numberOfPeople"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/numberOfPeople"
+        android:inputType="number"
+        android:paddingTop="@dimen/dimen10dp"
+        android:paddingBottom="@dimen/dimen10dp"
+        android:textSize="@dimen/hintSize" />
+
+    <Spinner
+        android:id="@+id/txtGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/txtGroup"
+        android:paddingTop="@dimen/dimen10dp"
+        android:paddingBottom="@dimen/dimen10dp"
+        android:prompt="@string/prompt" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/dimen10dp"
+        android:paddingBottom="@dimen/dimen10dp"
+        android:text="@string/splitHelpButton2"
+        android:textAllCaps="false"
+        android:textSize="@dimen/buttonSize" />
+
+    <TextView
+        android:id="@+id/finalOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/dimen10dp"
+        android:paddingBottom="@dimen/dimen10dp"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/displayOutput" />
+
+    <TextView
+        android:id="@+id/comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/dimen10dp"
+        android:paddingBottom="@dimen/dimen10dp"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/displayOutput" />
+</LinearLayout>

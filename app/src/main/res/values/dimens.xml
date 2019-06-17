@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen10dp">10dp</dimen>
+    <dimen name="titleSize">30sp</dimen>
+    <dimen name="hintSize">20sp</dimen>
+    <dimen name="buttonSize">20sp</dimen>
+    <dimen name="displayOutput">20sp</dimen>
+
+</resources>
